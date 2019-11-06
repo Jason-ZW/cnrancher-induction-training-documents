@@ -1,5 +1,7 @@
-# cnrancher-training-docs
-cnrancher developer induction training documentation
+# CN Rancher Training Docs
+
+This repository contains a variety of essential rancher skills and can be used as a starter guide for developers to help them master the farm-related technology patterns in a short period of time.
+If you want to know how to develop rancher related components and products, please read on.
 
 # License
 
