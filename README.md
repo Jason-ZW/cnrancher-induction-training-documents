@@ -1,7 +1,56 @@
-# CN Rancher Training Docs
+# CN Rancher Induction Training Documents
 
 This repository contains a variety of essential rancher skills and can be used as a starter guide for developers to help them master the farm-related technology patterns in a short period of time.
 If you want to know how to develop rancher related components and products, please read on.
+
+## Before you begin
+
+You need to know about rancher & cnrancher companies's products & projects. You can learn more about from [rancher's](https://www.rancher.com) website or [cnrancher's](https://www.rancher.cn) website.
+
+**Products:**
+- [rancher](https://github.com/rancher/rancher) - Rancher is an open source project that provides a container management platform built for organizations that deploy containers in production. Rancher makes it easy to run Kubernetes everywhere, meet IT requirements, and empower DevOps teams.
+- [rancheros](https://github.com/rancher/os) - The smallest, easiest way to run Docker in production at scale. Everything in RancherOS is a container managed by Docker.
+- [rke](https://github.com/rancher/rke) - Rancher Kubernetes Engine, an extremely simple, lightning fast Kubernetes installer that works everywhere.
+
+**Projects:**
+- [k3s](https://github.com/rancher/k3s) - Lightweight Kubernetes. Easy to install, half the memory, all in a binary less than 40mb.
+- [longhorn](https://github.com/longhorn/longhorn) - Longhorn is a distributed block storage system for Kubernetes.
+- [rio](https://github.com/rancher/rio) - Rio is a MicroPaaS that can be layered on top of any standard Kubernetes cluster.
+- [k3os](https://github.com/rancher/k3os) - K3OS is a Linux distribution designed to remove as much as possible OS maintenance in a Kubernetes cluster. It is specifically designed to only have what is need to run k3s.
+- [submariner](https://github.com/submariner-io/submariner) - Submariner is a tool built to connect overlay networks of different Kubernetes clusters.
+
+## Basic skills
+
+Good Golang programming ability and Linux related basic operation and maintenance ability are the basic requirements.
+
+**Frameworks & Utilities:**
+- [rancher/dapper](https://github.com/rancher/dapper) - Dapper is a tool to wrap any existing build tool in an consistent environment. This allows people to build your software from source or modify it without worrying about setting up a build environment.
+- [rancher/go-skel](https://github.com/rancher/go-skel) - Skeleton for Rancher Go Microservices.
+- [gnu/make](https://www.cl.cam.ac.uk/teaching/0910/UnixTools/make.pdf) - The make utility automatically determines which pieces of a large program need to be recompiled, and issues commands to recompile them.
+
+## Let's begin
+
+**Docker Related**
+
+1. Use Dockerfile build a docker image.
+2. Use Dockerfile multi-stage build a docker image.
+3. Run a containerized service with a docker-compose and use the host network.
+4. Complete network communication between two containers via veth-paris & network namespaces.
+
+**Kubernetes Related**
+
+1. Use RKE deploy a Kubernetes cluster (1 master and 2 nodes).
+2. Run a WordPress application in Kubernetes and expose the service using ingress.
+3. Add a dynamic NFS provisioner to your Kubernetes cluster, run an application using NFS storage.
+4. Use [kubernetes/client-go](https://github.com/kubernetes/client-go) to CRUD Kubernetes Deployment.
+5. Extend the Kubernetes API with CustomResourceDefinitions.
+6. Refer to [kubernetes/sample-controller](https://github.com/kubernetes/sample-controller) write a controller watch CRD resource and print the logs.
+7. Refer to [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) write a controller watch CRD resource and print the logs.
+
+## References documents
+
+- [awesome/rancher](https://github.com/jmreicha/awesome-rancher)
+- [makefile/tutorial](https://makefiletutorial.com/)
 
 # License
 
