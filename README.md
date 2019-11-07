@@ -1,6 +1,8 @@
 # Induction Training Documents
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Jason-ZW/cnrancher-induction-training-documents/pulls)
+[![GitHub release](https://img.shields.io/github/release/Jason-ZW/cnrancher-induction-training-documents.svg)](https://github.com/Jason-ZW/cnrancher-induction-training-documents/releases)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 This repository contains a variety of essential rancher skills and can be used as a starter guide for developers to help them master the farm-related technology patterns in a short period of time.
 If you want to know how to develop rancher related components and products, please read on.
