@@ -1,7 +1,12 @@
-# CN Rancher Induction Training Documents
+# Induction Training Documents
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Jason-ZW/cnrancher-induction-training-documents/pulls)
 
 This repository contains a variety of essential rancher skills and can be used as a starter guide for developers to help them master the farm-related technology patterns in a short period of time.
 If you want to know how to develop rancher related components and products, please read on.
+
+- Q&A - please refer [here](Q&A/README.md).
+- UI&UE - please refer [here](UI&UE/README.md).
 
 ## Before you begin
 
@@ -32,8 +37,8 @@ Good Golang programming ability and Linux related basic operation and maintenanc
 
 **Docker Related**
 
-1. Use Dockerfile build a docker image.
-2. Use Dockerfile multi-stage build a docker image.
+1. Build a docker image using Dockerfile.
+2. Build a docker image using Dockerfile with multi-stage features.
 3. Run a containerized service with a docker-compose and use the host network.
 4. Complete network communication between two containers via veth-paris & network namespaces.
 
@@ -46,6 +51,13 @@ Good Golang programming ability and Linux related basic operation and maintenanc
 5. Extend the Kubernetes API with CustomResourceDefinitions.
 6. Refer to [kubernetes/sample-controller](https://github.com/kubernetes/sample-controller) write a controller watch CRD resource and print the logs.
 7. Refer to [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) write a controller watch CRD resource and print the logs.
+
+**Rancher Related**
+
+1. Rancher single node install.
+2. Rancher high availability (HA) install.
+3. Deploy an application from Rancher AppCatalog, use NodePort expose the application.
+4. Backing up and Restore etcd from rancher ui.
 
 ## References documents
 
