@@ -1,6 +1,6 @@
 # UI & UE
 
-The following skills are required if you are a UI & UE developer.
+The following skills are required if you are an UI & UE developer.
 
 ## ECMAScript 6 - [Documents](http://es6-features.org)
 

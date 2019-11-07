@@ -5,8 +5,8 @@
 This repository contains a variety of essential rancher skills and can be used as a starter guide for developers to help them master the farm-related technology patterns in a short period of time.
 If you want to know how to develop rancher related components and products, please read on.
 
-- Q&A - please refer [here](Q&A/README.md).
 - UI&UE - please refer [here](UI&UE/README.md).
+- Q&A - please refer [here](Q&A/README.md).
 
 ## Before you begin
 
@@ -34,6 +34,8 @@ Good Golang programming ability and Linux related basic operation and maintenanc
 - [gnu/make](https://www.cl.cam.ac.uk/teaching/0910/UnixTools/make.pdf) - The make utility automatically determines which pieces of a large program need to be recompiled, and issues commands to recompile them.
 
 ## Let's begin
+
+We will set aside 2 weeks for you to finish the following contents. Please keep your demo environment for our inspection.
 
 **Docker Related**
 
