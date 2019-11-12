@@ -39,6 +39,14 @@ Good Golang programming ability and Linux related basic operation and maintenanc
 
 We will set aside 2 weeks for you to finish the following contents. Please keep your demo environment for our inspection.
 
+You also need to be familiar with the company's work environment.
+
+**Company's Work Environment**
+- Complete the configuration of Slack/Email/Zoom/Office and other working software. (office software can be downloaded through office.com).
+- Complete the configuration of Github account, join RancherLabs(rancher or cnrancher) organizations, and be familiar with the basic use of Github.
+- Familiar with the preparation, submission, and modification process of relevant weekly reports.
+- Familiar with relevant weekly report preparation, submission, modification process.
+
 **Docker Related**
 
 1. Build a docker image using Dockerfile.
