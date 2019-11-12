@@ -9,6 +9,7 @@ If you want to know how to develop rancher related components and products, plea
 
 - UI&UE - please refer [here](UI&UE/README.md).
 - Q&A - please refer [here](Q&A/README.md).
+- Company's Account Application - please refer [here](ACCOUNT.md).
 
 ## Before you begin
 
@@ -39,13 +40,14 @@ Good Golang programming ability and Linux related basic operation and maintenanc
 
 We will set aside 2 weeks for you to finish the following contents. Please keep your demo environment for our inspection.
 
-You also need to be familiar with the company's work environment.
+You also need to be familiar with the company's work environment. Before that, you need to improve and provide personal information so that we can quickly open the relevant account, refer [here](ACCOUNT.md).
 
 **Company's Work Environment**
 - Complete the configuration of Slack/Email/Zoom/Office and other working software. (office software can be downloaded through office.com).
 - Complete the configuration of Github account, join RancherLabs(rancher or cnrancher) organizations, and be familiar with the basic use of Github.
 - Familiar with the preparation, submission, and modification process of relevant weekly reports.
 - Familiar with relevant weekly report preparation, submission, modification process.
+  - Shenyang - https://github.com/cnrancher/sy-teamblog
 
 **Docker Related**
 
