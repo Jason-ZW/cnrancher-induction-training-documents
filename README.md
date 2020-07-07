@@ -27,6 +27,10 @@ You need to know about rancher & cnrancher companies's products & projects. You 
 - [k3os](https://github.com/rancher/k3os) - K3OS is a Linux distribution designed to remove as much as possible OS maintenance in a Kubernetes cluster. It is specifically designed to only have what is need to run k3s.
 - [submariner](https://github.com/submariner-io/submariner) - Submariner is a tool built to connect overlay networks of different Kubernetes clusters.
 
+## Development Workflow
+
+If you want to perform a functional commit against a repository, `fork` the repository first. After that please `commit` and `test` the code to the repository which you `forked` before. If everything is ok, please submit a `Pull Request` to the `upstream` repository and `assign a reviewer`. Then wait the `Pull Request` be merged.
+
 ## Basic skills
 
 Good Golang programming ability and Linux related basic operation and maintenance ability are the basic requirements.
