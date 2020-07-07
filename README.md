@@ -29,7 +29,9 @@ You need to know about rancher & cnrancher companies's products & projects. You 
 
 ## Development Workflow
 
-If you want to perform a functional commit against a repository, `fork` the repository first. After that please `commit` and `test` the code to the repository which you `forked` before. If everything is ok, please submit a `Pull Request` to the `upstream` repository and `assign a reviewer`. Then wait the `Pull Request` be merged.
+If you want to perform a functional commit against a repository, `fork` the repository first. After that please `modify` and `test` the code in the repository which you `forked` before. If everything is ok, please submit a `Pull Request` to the `upstream` repository and `assign a reviewer`. Then wait the `Pull Request` be merged.
+
+Self-testing is an important step. Make sure your code is self-tested before submitting a `Pull Request`.
 
 ## Basic skills
 
