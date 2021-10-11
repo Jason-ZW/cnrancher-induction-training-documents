@@ -12,7 +12,6 @@
 - Docker 基本命令
 - 使用 Dockerfile 构建一个 docker 镜像
 - 使用具有 multi-stage 特性的 Dockerfile 构建一个 docker 镜像
-- 使用 docker-compose 运行一个容器化服务，并使用主机网络
 - 通过 veth-paris 和网络名称空间完成两个容器之间的网络通信
 
 #### Kubernetes
@@ -67,6 +66,6 @@ Pytest | 1. 搭建 pytest 环境 </br> 2. 运行测试 case | 1. 本地运行测
 #### 5月
 skill | 学习内容 | 任务 | 完成时间
 -- | -- | -- | --
-Docker | 1. Docker 容器 | 1. 使用 docker-compose 运行一个容器化服务，并使用主机网络 </br> 2. 通过 veth-paris 和网络名称空间完成两个容器之间的网络通信 | 第5月
+Docker | 1. Docker 容器 | 1. 通过 veth-paris 和网络名称空间完成两个容器之间的网络通信 | 第5月
 Rancher | 1. Rancher 功能使用 | 1. 搭建 Harbor/审计日志/macvlan/GPU/F5 环境 | 第4月
 Pytest | 1. 编写 Test case </br> 2. Jenkins 使用 | 1. 编写 Test Case </br> 2. Jenkins 创建/运行 Pipeline | 第5月
